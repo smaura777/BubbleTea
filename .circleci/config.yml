@@ -14,7 +14,7 @@ jobs:
             command: |
               git clone git@github.com:smaura777/BubbleTea_certsProfiles.git
               mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles 
-              cp BubbleTea_certsProfiles/*.mobileprovision  .
+              cp BubbleTea_certsProfiles/*.mobileprovision  ~/Library/MobileDevice/Provisioning\ Profiles 
               cp BubbleTea_certsProfiles/*.cer  .
       - run:
           name: Install CocoaPods
