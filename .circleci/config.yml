@@ -8,11 +8,10 @@ jobs:
           name: Print test info
           command: |
             echo "Hello World - this is a test of the emergency alert system"
-  
       - checkout
-       - run:
-          name: Certificate repo checkout 
-          command: |
+      - run:
+            name: Certificate repo checkout 
+            command: |
               git clone git@github.com:smaura777/BubbleTea_certsProfiles.git
               mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles 
               cp BubbleTea_certsProfiles/*.mobileprovision  ~/Library/MobileDevice/Provisioning\ Profiles/
