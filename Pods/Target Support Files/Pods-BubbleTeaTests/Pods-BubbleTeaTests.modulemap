@@ -1,0 +1,6 @@
+framework module Pods_BubbleTeaTests {
+  umbrella header "Pods-BubbleTeaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
