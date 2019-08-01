@@ -37,9 +37,14 @@
                BlueprintName = "BubbleTeaTests"
                ReferencedContainer = "container:BubbleTea.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "BubbleTeaTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A99DC8722EF382900C23C37"
